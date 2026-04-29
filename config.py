@@ -9,6 +9,8 @@ MODELS_DIR = os.path.join(PROJECT_ROOT, 'models')
 BEST_MODEL_PATH = os.path.join(MODELS_DIR, "best_model.pkl")
 SCALER_PATH = os.path.join(MODELS_DIR, "scaler.joblib")
 LABEL_ENCODER_PATH = os.path.join(MODELS_DIR, "label_encoder.joblib")
+VIDEO_INPUT_DIR = os.path.join(PROJECT_ROOT, "video", "input")
+VIDEO_OUTPUT_DIR = os.path.join(PROJECT_ROOT, "video", "output")
 
 
 ## Supported letters
